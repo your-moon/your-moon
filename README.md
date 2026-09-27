@@ -18,5 +18,3 @@ I also write about the low-level path — compilers, unsafe Rust, DDD in Go, and
 going from ARM assembly to embedded.
 
 Reach me at [github.com/your-moon](https://github.com/your-moon) · muunuu960@gmail.com
-
-> 独行道 — the way of walking alone.
