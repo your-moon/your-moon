@@ -23,11 +23,6 @@ Static analysis that walks the Go type system to validate GORM `Preload()` chain
 at build time. No string heuristics — it resolves receiver types and traces dotted
 paths against real struct fields, catching what tests won't.
 
-**Seed Design System** · TypeScript
-Cross-platform design system — tokens, headless React components, CSS primitives,
-Figma integration, and an MCP server. Built for consistency across React and
-Flutter surfaces at scale.
-
 ## Professional Work
 
 **Vending Machine System** — Custom hardware SDK, real-time telemetry, payment
