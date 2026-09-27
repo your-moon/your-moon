@@ -31,9 +31,6 @@ settlement, and fiscal compliance, from firmware to cloud. `Go` `Flutter` `IoT` 
 **Powerbank Rental Network** — Distributed station infrastructure with hardware
 handshake, session metering, and automated billing. `Go` `IoT`
 
-**Zahii Grocery** — Commerce platform with real-time delivery dispatch,
-multi-merchant inventory sync, and thousands of daily orders. `Go` `Flutter`
-
 ## Writing
 
 - Why I wrote a GORM static analysis tool — *2025*
