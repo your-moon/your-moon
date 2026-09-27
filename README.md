@@ -1,7 +1,7 @@
 # Munkherdene
 
-Software engineer who works close to the machine — compilers, static analysis,
-domain-driven systems. I care about the craft: correct abstractions, deliberate
+Software engineer with 5+ years of experience, working close to the machine —
+compilers, static analysis, domain-driven systems. I care about the craft: correct abstractions, deliberate
 architecture, and tools that earn their complexity. Based in Mongolia.
 
 `Go` · `Rust` · `Compilers` · `DDD / CQRS` · `Static Analysis` · `Systems` · `Neovim` · `Arch Linux` · `i3wm`
