@@ -1,47 +1,22 @@
-# Munkherdene
+Hi, I'm Munkherdene — a software engineer who works close to the machine.
+Compilers, static analysis, domain-driven systems. 5+ years, based in Mongolia.
 
-Software engineer with 5+ years of experience, working close to the machine —
-compilers, static analysis, domain-driven systems. I care about the craft: correct abstractions, deliberate
-architecture, and tools that earn their complexity. Based in Mongolia.
+I love language implementation — the machinery between source text and a running
+program. Most of my open-source work lives there:
 
-`Go` · `Rust` · `Compilers` · `DDD / CQRS` · `Static Analysis` · `Systems` · `Neovim` · `Arch Linux` · `i3wm`
+- [mon_lang](https://github.com/your-moon/mon_lang) — a compiler for a small statically-typed language, in Go: lexer, recursive-descent parser, type checker, and x86-64 code generation.
+- [Cecile](https://github.com/your-moon/Cecile) — an interpreted language in Rust where speed is a design constraint; strategic unsafe Rust in the eval hot path keeps it near V8 and CPython.
+- [gpc](https://github.com/your-moon/gpc) — static analysis that walks the Go type system to validate GORM `Preload()` chains at build time, not in production.
+- [kaleidoscope](https://github.com/your-moon/kaleidoscope) — the LLVM front-end, built up from nothing in C++.
 
-## Craft
+Day to day I architect and ship full-stack platforms with domain-driven rigor — a
+nationwide vending-machine system (hardware SDK, telemetry, payments, and fiscal
+compliance across Go, Java, and K8s) and a powerbank rental network (distributed
+stations, session metering, automated billing).
 
-**[Mon Compiler](https://github.com/your-moon/mon_lang)** · Go
-A complete compilation pipeline for a custom language — lexing, recursive-descent
-parsing, semantic type checking, and machine-code generation. An exercise in
-understanding every layer between source text and execution.
+I also write about the low-level path — compilers, unsafe Rust, DDD in Go, and
+going from ARM assembly to embedded.
 
-**[Cecile](https://github.com/your-moon/Cecile)** · Rust
-An interpreted language where performance is a first-class design constraint.
-Strategic unsafe Rust in the evaluation hot path brings execution on par with V8
-and CPython — without giving up the safety guarantees everywhere else.
-
-**[gpc](https://github.com/your-moon/gpc)** · Go
-Static analysis that walks the Go type system to validate GORM `Preload()` chains
-at build time. No string heuristics — it resolves receiver types and traces dotted
-paths against real struct fields, catching what tests won't.
-
-## Professional Work
-
-**Vending Machine System** — Custom hardware SDK, real-time telemetry, payment
-settlement, and fiscal compliance, from firmware to cloud. `Go` `Java` `Hardware` `IoT` `K8s`
-
-**Powerbank Rental Network** — Distributed station infrastructure with hardware
-handshake, session metering, and automated billing. `Go` `IoT`
-
-## Writing
-
-- Why I wrote a GORM static analysis tool — *2025*
-- Go хэл дээр компилятор эхнээс нь бичсэн нь — *2025*
-- Unsafe Rust for interpreted language performance — *2025*
-- DDD and CQRS in a Go marketplace backend — *2025*
-- From ARM assembly to embedded systems — *2024*
-
-## Elsewhere
-
-- [github.com/your-moon](https://github.com/your-moon)
-- [muunuu960@gmail.com](mailto:muunuu960@gmail.com)
+Reach me at [github.com/your-moon](https://github.com/your-moon) · muunuu960@gmail.com
 
 > 独行道 — the way of walking alone.
