@@ -26,7 +26,7 @@ paths against real struct fields, catching what tests won't.
 ## Professional Work
 
 **Vending Machine System** — Custom hardware SDK, real-time telemetry, payment
-settlement, and fiscal compliance, from firmware to cloud. `Go` `Flutter` `IoT` `K8s`
+settlement, and fiscal compliance, from firmware to cloud. `Go` `Java` `Hardware` `IoT` `K8s`
 
 **Powerbank Rental Network** — Distributed station infrastructure with hardware
 handshake, session metering, and automated billing. `Go` `IoT`
