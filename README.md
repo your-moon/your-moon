@@ -1,27 +1,55 @@
-### Moonn
+# Munkherdene
 
-I love compilers and interpreters — the machinery that turns text a person writes
-into something a machine will run. Mostly Go, Rust, and C.
+Software engineer who works close to the machine — compilers, static analysis,
+domain-driven systems. I care about the craft: correct abstractions, deliberate
+architecture, and tools that earn their complexity. Based in Mongolia.
 
-I build **Mon**, a small statically-typed language with Mongolian keywords:
+`Go` · `Rust` · `Compilers` · `DDD / CQRS` · `Static Analysis` · `Systems` · `Neovim` · `Arch Linux` · `i3wm`
 
-```mon
-функц үндсэн() -> тоо {
-    мөр_хэвлэх("Өдрийн мэнд\n");
-    буц 0;
-}
-```
+## Craft
 
-- [mon_lang](https://github.com/your-moon/mon_lang) — the compiler, in Go: source → Tacky IR → x86-64, assembled to a native binary.
-- [mon](https://github.com/your-moon/mon) — the same language, now **self-hosted**: the compiler is written in Mon, emits Mach-O directly, and bootstraps from a seed with no external toolchain. There's a TinyGL-style software 3D renderer written in Mon.
-- [Cecile](https://github.com/your-moon/Cecile) — an earlier bytecode language in Rust: GC'd, typed, with a REPL.
-- [gpc](https://github.com/your-moon/gpc) — a static preload checker for GORM.
-- [kaleidoscope](https://github.com/your-moon/kaleidoscope) — the LLVM front-end, in C++.
+**[Mon Compiler](https://github.com/your-moon/mon_lang)** · Go
+A complete compilation pipeline for a custom language — lexing, recursive-descent
+parsing, semantic type checking, and machine-code generation. An exercise in
+understanding every layer between source text and execution.
 
-The books I keep coming back to:
+**[Cecile](https://github.com/your-moon/Cecile)** · Rust
+An interpreted language where performance is a first-class design constraint.
+Strategic unsafe Rust in the evaluation hot path brings execution on par with V8
+and CPython — without giving up the safety guarantees everywhere else.
 
-- *Crafting Interpreters* — Robert Nystrom
-- *Compilers: Principles, Techniques, and Tools* — Aho, Lam, Sethi & Ullman
-- *Computer Systems: A Programmer's Perspective* — Bryant & O'Hallaron
+**[gpc](https://github.com/your-moon/gpc)** · Go
+Static analysis that walks the Go type system to validate GORM `Preload()` chains
+at build time. No string heuristics — it resolves receiver types and traces dotted
+paths against real struct fields, catching what tests won't.
+
+**Seed Design System** · TypeScript
+Cross-platform design system — tokens, headless React components, CSS primitives,
+Figma integration, and an MCP server. Built for consistency across React and
+Flutter surfaces at scale.
+
+## Professional Work
+
+**Vending Machine System** — Custom hardware SDK, real-time telemetry, payment
+settlement, and fiscal compliance, from firmware to cloud. `Go` `Flutter` `IoT` `K8s`
+
+**Powerbank Rental Network** — Distributed station infrastructure with hardware
+handshake, session metering, and automated billing. `Go` `IoT`
+
+**Zahii Grocery** — Commerce platform with real-time delivery dispatch,
+multi-merchant inventory sync, and thousands of daily orders. `Go` `Flutter`
+
+## Writing
+
+- Why I wrote a GORM static analysis tool — *2025*
+- Go хэл дээр компилятор эхнээс нь бичсэн нь — *2025*
+- Unsafe Rust for interpreted language performance — *2025*
+- DDD and CQRS in a Go marketplace backend — *2025*
+- From ARM assembly to embedded systems — *2024*
+
+## Elsewhere
+
+- [github.com/your-moon](https://github.com/your-moon)
+- [muunuu960@gmail.com](mailto:muunuu960@gmail.com)
 
 > 独行道 — the way of walking alone.
