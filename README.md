@@ -6,9 +6,7 @@ program. Most of my open-source work lives there:
 
 - [mon_lang](https://github.com/your-moon/mon_lang) — a compiler for a small statically-typed language, in Go: lexer, recursive-descent parser, type checker, and x86-64 code generation.
 - [Cecile](https://github.com/your-moon/Cecile) — an interpreted language in Rust where speed is a design constraint; strategic unsafe Rust in the eval hot path keeps it near V8 and CPython.
-- [gpc](https://github.com/your-moon/gpc) — static analysis that walks the Go type system to validate GORM `Preload()` chains at build time, not in production.
 - [tern](https://github.com/your-moon/tern) — a fast, low-memory SSH terminal built with Rust and GPUI.
-- [kaleidoscope](https://github.com/your-moon/kaleidoscope) — the LLVM front-end, built up from nothing in C++.
 
 Day to day I architect and ship full-stack platforms with domain-driven rigor — a
 nationwide vending-machine system (hardware SDK, telemetry, payments, and fiscal
