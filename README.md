@@ -17,4 +17,11 @@ stations, session metering, automated billing).
 I also write about the low-level path — compilers, unsafe Rust, DDD in Go, and
 going from ARM assembly to embedded.
 
+### Setup
+
+- **OS:** Arch Linux (btw)
+- **Editor:** Neovim
+- **Shell:** zsh, everything from the terminal
+- **Languages:** Go, Rust, C++, Java
+
 Reach me at [github.com/your-moon](https://github.com/your-moon) · muunuu960@gmail.com
